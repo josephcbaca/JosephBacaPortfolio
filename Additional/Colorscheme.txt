@@ -1,0 +1,8 @@
+https://coolors.co/e7222e-e2d5c1-494749-f0872e-ec5c31
+
+#ED5E67(Red)
+#ECE4D7(Light Grey)
+#717071(Dark Grey)
+#494749(Black)
+#F5B27A(Light Orange)
+#F2977B(Red-Brown)
