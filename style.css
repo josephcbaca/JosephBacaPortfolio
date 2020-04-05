@@ -1,0 +1,109 @@
+body {
+    background-color: lightgray;
+}
+
+.togglercolor {
+    color: white;
+}
+
+.navbar-custom {
+    background-color: black;
+    color: black;
+}
+
+.navbar-item-custom {
+    color: white;
+}
+
+.headbox-color, .footer-color{
+    color: black;
+}
+
+.name-color {
+
+    background-color: white;
+    color: black;
+}
+
+.horizontal-line {
+    background-color: black;
+    height: 13px;
+}
+
+.horizontal-block {
+    background-color: white;
+    height: 10px;
+    bottom: 0;
+}
+
+.caption-edit {
+    background-color: white;
+    color: black;
+    opacity: 0.5;
+}
+
+
+.blk-line {
+    background-color: #494749;
+    height: 1px;
+}
+
+hr {
+    border-color: black;
+}
+
+.btn-custom {
+    color: white;
+    background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 650px;
+   
+      }
+ 
+  
+      p {
+          margin-top: 5%;
+      }
+  
+
+      
+  @media screen and (max-width: 640px) {
+
+  
+    .container {
+      width: 350px;
+ 
+    }
+
+
+    p {
+        margin-top: 5%;
+    }
+
+
+
+  }
+
+  
+
+  @media screen and (max-width: 360px) {
+
+  
+    .container {
+      width: 275px;
+ 
+    }
+
+
+    p {
+        margin-top: 5%;
+    }
+
+
+
+  }
+
