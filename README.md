@@ -13,4 +13,4 @@ Files:
 
 * portfolio.html
 
-* ./Additional folder includes images used and different color schemes
+* ./Assets folder includes images used and different color schemes
