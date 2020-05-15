@@ -19,29 +19,20 @@ body {
     color: black;
 }
 
-.name-color {
-
+#headerName {
     background-color: white;
     color: black;
-}
 
-.horizontal-line {
-    background-color: black;
-    height: 13px;
 }
-
-.horizontal-block {
-    background-color: white;
-    height: 10px;
-    bottom: 0;
+.ass {
+    z-index: 1;
 }
 
 .caption-edit {
     background-color: white;
     color: black;
-    opacity: 0.5;
+    opacity: 0.7;
 }
-
 
 .blk-line {
     background-color: #494749;
@@ -57,53 +48,45 @@ hr {
     background-color: black;
 }
 
+.horizontal-line {
+    background-color: black;
+    height: 13px;
+}
+
+.horizontal-block {
+    background-color: white;
+    height: 10px;
+    bottom: 0;
+}
+
 @media screen and (max-width: 768px) {
 
     .container {
         width: 650px;
-   
       }
  
-  
       p {
           margin-top: 5%;
       }
   
-
-      
   @media screen and (max-width: 640px) {
 
-  
     .container {
       width: 350px;
- 
     }
-
 
     p {
         margin-top: 5%;
     }
-
-
-
   }
-
   
-
   @media screen and (max-width: 360px) {
 
-  
     .container {
       width: 275px;
- 
     }
-
 
     p {
         margin-top: 5%;
     }
-
-
-
   }
-

@@ -4,69 +4,88 @@
 <head>
     <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <meta name="viewport" content="width-device-width, initial-scale=1"> 
+    <meta name="viewport" content="width-device-width, initial-scale=1">
 </head>
 
 <body>
 
-<!--Navbar code edits should be copied across index.html portfolio.html and contact.html-->
-<nav class="navbar navbar-expand-md navbar-custom">
-    <div class="container">
-
-            <div class="row col-md-8">
-
-            <p class="navbar-brand name-color m-0 px-2 py-0">Joseph Baca</p>
+    <!--Navbar code edits should be copied across index.html portfolio.html and contact.html-->
+    <nav class="navbar navbar-expand-md navbar-custom flex-md-row py-0">
+        <div class="container">
+            <div class="row">
+            <p class="card navbar-brand px-3 my-0 col-md-12" id="headerName">Joseph Baca</p>
         </div>
-<div class="container">
-                <a class="navbar-item-custom px-1" href="index.html">About</a>
-
-                <a class="navbar-item-custom px-1" href="portfolio.html">Portfolio</a>
-
-                <a class="navbar-item-custom px-1" href="contact.html">Contact</a>
-            </div>
-
-    </div>
-</nav>
-<!--End Navbar code-->
-
-<section class="col-md-12 my-3">
-    <div class="container">
         <div class="row">
-            <div class="card bg-light col-md-12 mb-4">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="display-5 headbox-color">About Me</h1>
+            <ul class="navbar-nav my-auto navbar-right col-md-12">
+                <li class="nav-item ">
+                    <a class="navbar-item-custom my-auto mx-1" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-item-custom my-auto mx-1" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-item-custom my-auto mx-1" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!--End Navbar code-->
+
+    <section class="col-md-12 my-3">
+        <div class="container">
+            <div class="row">
+                <div class="card bg-light col-md-12 mb-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="display-5 headbox-color my-auto">About Me</h1>
+                        </div>
                     </div>
-                </div>
-                <hr class="my-6">
-<!--Under header line-->
+                    <hr class="my-6">
+                    <!--Under header line-->
 
-                <div class="row">
-                    <div class="col-md-4 mx-3">
-                        <a class="footer-color mx-0" target="_blank" href="https://www.linkedin.com/in/joseph-baca-1b1713106/">Linkedin</a>
-                        
-                        <a class="footer-color mx-0" target="_blank" href="https://github.com/josephcbaca">GitHub</a>
+                    <div class="row">
+                        <div class="col-md-4 mx-3 my-auto">
+                            <a class="footer-color" target="_blank"
+                                href="https://www.linkedin.com/in/joseph-baca-1b1713106/">Linkedin</a>
 
-                        <a class="footer-color mx-0" target="_blank" href="https://www.flickr.com/photos/josephbaca/albums">Flickr</a>
+                            <a class="footer-color" target="_blank" href="https://github.com/josephcbaca">GitHub</a>
+
+                            <a class="footer-color" target="_blank"
+                                href="https://www.flickr.com/photos/josephbaca/albums">Flickr</a>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 mx-3">
-                        <img class="px-0 mb-3 img-fluid" style="width: 17rem" src="./Assets/Headshot_jb.jpg" alt="Black and White Photo of a very professionally dressed Joseph Baca">
-                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mx-3">
+                            <img class="px-0 mb-3 img-fluid" style="width: 17rem" src="./Assets/Headshot_jb.jpg"
+                                alt="Black and White Photo of a very professionally dressed Joseph Baca">
+                        </div>
 
-                    <div class="col-md-6 mx-3 mb-4">
-                        <p class="card-text">My name is Joseph Baca and I am currently employeed at Entegral, a subsidiary of Enterprise Holdings.  I have been with the company for 14 years and I am currently a Support Analyst Senior on the Technical Support team.  I support several platforms across the automotive industry including collision repair shops, insurance providers and internal assistance.  I am a focal point of contact for our larger customers.</p>
+                        <div class="col-md-6 mx-3 mb-4">
+                            <p class="card-text">My name is Joseph Baca and I am currently employeed at Entegral, a
+                                subsidiary of Enterprise Holdings. I have been with the company for 14 years and I am
+                                currently a Support Analyst Senior on the Technical Support team. I support several
+                                platforms across the automotive industry including collision repair shops, insurance
+                                providers and internal assistance. I am a focal point of contact for our larger
+                                customers.</p>
 
-                        <p class="card-text">To further my career, I am currently enrolled at the University of Washington in their Coding Bootcamp course.  After completing the class, I will have complete knowledge as a full stack developer and will be looking for opportunities as an engineer.  I am well equipped with handling managing large projects to meet deadlines, expert in communication with an emphasis in customer service, I am proficient in Microsoft Office products including Excel and I'm self taught in several Adobe design products including Photoshop and Lightroom.  I owned and ran an art gallery in Fullerton, CA before moving to Seattle, WA in 2019.  </p>
+                            <p class="card-text">To further my career, I am currently enrolled at the University of
+                                Washington in their Coding Bootcamp course. After completing the class, I will have
+                                complete knowledge as a full stack developer and will be looking for opportunities as an
+                                engineer. I am well equipped with handling managing large projects to meet deadlines,
+                                expert in communication with an emphasis in customer service, I am proficient in
+                                Microsoft Office products including Excel and I'm self taught in several Adobe design
+                                products including Photoshop and Lightroom. I owned and ran an art gallery in Fullerton,
+                                CA before moving to Seattle, WA in 2019. </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 </body>
