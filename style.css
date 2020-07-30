@@ -6,13 +6,8 @@ body {
     color: white;
 }
 
-.navbar-custom {
-    background-color: black;
-    color: black;
-}
-
 .navbar-item-custom {
-    color: white;
+    color: black;
 }
 
 .headbox-color, .footer-color{
@@ -20,8 +15,8 @@ body {
 }
 
 #headerName {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 
 }
 .ass {
@@ -60,9 +55,13 @@ hr {
     bottom: 0;
 }
 
-#infoRow {
-
+.social-icon {
+    margin-right: auto;
+    margin-left: auto;
+    width: 10%;
 }
+
+
 
 
 @media screen and (max-width: 768px) {
