@@ -65,8 +65,9 @@ hr {
     cursor: pointer
 }
 
-
-
+#popUp {
+    box-shadow: -1px -1px 0 #100C08, 1px -1px 0 #100C08, -1px 1px 0 #100C08, 1px 1px 0 #100C08;
+}
 
 @media screen and (max-width: 768px) {
 
