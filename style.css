@@ -21,14 +21,6 @@ body {
     background-color: lightgray;
 }
 
-.togglercolor {
-    color: white;
-}
-
-.navbar-item-custom {
-    color: black;
-}
-
 .headbox-color, .footer-color{
     color: black;
 }
@@ -46,38 +38,15 @@ body {
     box-shadow: -1px -1px 0 #100C08, 1px -1px 0 #100C08, -1px 1px 0 #100C08, 1px 1px 0 #100C08;
 }
 
-.blk-line {
-    background-color: #494749;
-    height: 1px;
-}
-
 hr {
     border-color: black;
 }
 
-.btn-custom {
-    color: white;
-    background-color: black;
-}
-
-.horizontal-line {
-    background-color: black;
-    height: 13px;
-}
-
-.horizontal-block {
-    background-color: white;
-    height: 10px;
-    bottom: 0;
-}
-
 .social-icon {
-    margin-right: auto;
-    margin-left: auto;
     width: 10%;
 }
 
-#copy-text {
+/* #copy-text {
     cursor: pointer
 }
 
@@ -90,8 +59,8 @@ hr {
   }
   
 .zoom:hover {
-    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
+    transform: scale(1.2);
+  } */
 
 .footer {
     height: 15%;
