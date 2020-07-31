@@ -1,3 +1,18 @@
+/* index.html */
+
+.indexBody {
+    margin-bottom: 0;
+    height: 100vh;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+.jumbo-text:link {
+    text-decoration: none;
+}
+
+/* portfolio.html */
 body {
     background-color: lightgray;
 }
@@ -18,9 +33,6 @@ body {
     background-color: black;
     color: white;
 
-}
-.ass {
-    z-index: 1;
 }
 
 .caption-edit {
@@ -71,11 +83,15 @@ hr {
 
 .zoom {
     transition: transform .1s;
-
   }
   
-  .zoom:hover {
+.zoom:hover {
     transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.footer {
+    height: 15%;
+    bottom: 0;
   }
 
 @media screen and (max-width: 768px) {
