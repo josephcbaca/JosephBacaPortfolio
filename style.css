@@ -12,6 +12,10 @@
     text-decoration: none;
 }
 
+.text-center {
+    display: none;
+}
+
 /* portfolio.html */
 body {
     background-color: lightgray;
