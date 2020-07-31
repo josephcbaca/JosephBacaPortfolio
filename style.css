@@ -46,7 +46,7 @@ hr {
     width: 10%;
 }
 
-/* #copy-text {
+#copy-text {
     cursor: pointer
 }
 
@@ -60,7 +60,7 @@ hr {
   
 .zoom:hover {
     transform: scale(1.2);
-  } */
+  }
 
 .footer {
     height: 15%;
