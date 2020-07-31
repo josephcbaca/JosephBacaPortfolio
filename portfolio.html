@@ -13,26 +13,25 @@
 <body>
 
     <!--Navbar code edits should be copied across index.html portfolio.html and contact.html-->
-    <nav class="navbar navbar-expand-md navbar-custom flex-md-row py-0">
-        <div class="container">
-            <div class="row">
-                <p class="card navbar-brand px-3 my-0 col-md-12" id="headerName">Joseph Baca</p>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light flex-md-row py-0">
+            <div class="container">
+                <div class="row">
+                    <p class="card navbar-brand px-3 my-0 col-md-12" id="headerName">Joseph Baca</p>
+                </div>
+                <div class="row">
+                    <ul class="navbar-nav my-auto navbar-right col-md-12">
+                        <li class="nav-item ">
+                            <a class="navbar-item-custom my-auto mx-1" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-item-custom my-auto mx-1" href="portfolio.html">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="row">
-                <ul class="navbar-nav my-auto navbar-right col-md-12">
-                    <li class="nav-item ">
-                        <a class="navbar-item-custom my-auto mx-1" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="navbar-item-custom my-auto mx-1" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="navbar-item-custom my-auto mx-1" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <!--End Navbar code-->
 
     <section class="col-md-12 my-3">
@@ -49,7 +48,8 @@
 
                     <div class="row">
                         <div class="text-white col-4 mb-2">
-                            <img src="./assets/DecisionsDecisions.JPG" class="card-img" alt="Screenshot of Personal Day Planner project">
+                            <img src="./assets/DecisionsDecisions.JPG" class="card-img"
+                                alt="Screenshot of Personal Day Planner project">
                             <div class="card-img-overlay">
                                 <div class="carousel-caption caption-edit">
                                     <h5>Decisions Decisions</h5>
@@ -59,7 +59,8 @@
                             </div>
                         </div>
                         <div class="text-white col-4 mb-2">
-                            <img src="./assets/WeatherDashboard.JPG" class="card-img" alt="Screenshot of Weather Dashboard project">
+                            <img src="./assets/WeatherDashboard.JPG" class="card-img"
+                                alt="Screenshot of Weather Dashboard project">
                             <div class="card-img-overlay">
                                 <div class="carousel-caption caption-edit">
                                     <h5>Weather Dashboard</h5>
@@ -69,7 +70,8 @@
                             </div>
                         </div>
                         <div class="text-white col-4 mb-2">
-                            <img src="./assets/DayPlanner.JPG" class="card-img" alt="Screenshot of Personal Day Planner project">
+                            <img src="./assets/DayPlanner.JPG" class="card-img"
+                                alt="Screenshot of Personal Day Planner project">
                             <div class="card-img-overlay">
                                 <div class="carousel-caption caption-edit">
                                     <h5>Personal Day Planner</h5>
@@ -80,11 +82,45 @@
                         </div>
                     </div>
 
-                    </div>
                 </div>
             </div>
         </div>
+        </div>
     </section>
+
+    <footer>
+        <div class="row m-0 p-0">
+            <div class=col-7></div>
+            <div class="alert alert-dark col-1 p-0 m-0 text-center" role="alert" id="popUp" style="display: none;">
+                Copied Email!</div>
+        </div>
+
+        <nav class="navbar fixed-bottom navbar-light bg-light mt-1">
+            <div class="row" id="icon-row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                    <a href="https://github.com/josephcbaca" target="_blank">
+                        <img class="social-icon mx-1" src="./assets/icons/github.png" alt="Black GitHub Icon"></img>
+                    </a>
+                    <a href="https://www.linkedin.com/in/josephcbaca/" target="_blank">
+                        <img class="social-icon mx-1" src="./assets/icons/linked_in.png"
+                            alt="Black Linked-in Icon"></img>
+                    </a>
+                    <a href="https://www.flickr.com/photos/josephbaca/" target="_blank">
+                        <img class="social-icon mx-1" src="./assets/icons/flickr.png" alt="Black flickr Icon"></img>
+                    </a>
+                    <a href="https://drive.google.com/file/d/10-FXua5gve7XYdIfZqrRtO2tq2ZN5e-Z/view?usp=sharing"
+                        target="_blank">
+                        <img class="social-icon mx-1" src="./assets/icons/resume.png" alt="Black resume Icon"></img>
+                    </a>
+                    <a id="copy-text">
+                        <img class="social-icon mx-1" src="./assets/icons/email.png" alt="Black email Icon"></img>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </footer>
 
 </body>
 
